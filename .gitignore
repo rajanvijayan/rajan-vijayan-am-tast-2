@@ -1,0 +1,12 @@
+node_modules
+/node_modules/
+/vendor/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db

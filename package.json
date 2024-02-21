@@ -1,0 +1,19 @@
+{
+  "name": "rajan-vijayan",
+  "version": "1.0.0",
+  "description": "A plugin to retrieve data from a remote API.",
+  "main": "assets/js/gutenberg-block.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "wp-scripts build assets/js/gutenberg-block.js --output-path=build",
+    "build:start": "wp-scripts start assets/js/gutenberg-block.js --output-path=build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "27.2.0",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-wp-pot": "^2.5.0"
+  }
+}

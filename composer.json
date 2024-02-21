@@ -1,0 +1,12 @@
+{
+    "name": "rajan-vijayan/rajan-vijayan-plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RajanVijayan\\": "src/"
+        }
+    }
+}
